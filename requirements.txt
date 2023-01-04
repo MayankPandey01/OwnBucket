@@ -1,0 +1,4 @@
+requests
+argparse
+colorama
+fake_useragent
