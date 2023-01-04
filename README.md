@@ -1,10 +1,12 @@
-
-# OwnBucket 
- [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)   <a href="https://twitter.com/mayank_pandey01"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/mayank_pandey01?style=social"></a> 
-[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/MayankPandey01/OwnBucket) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+<p align="center"><img width="750" height="350" src="https://user-images.githubusercontent.com/29165227/210492763-1f3e82ba-9a77-470a-be57-e02e12017335.jpg"></p>
 
 <p align="center">
-  <img width="750" height="350" src="https://user-images.githubusercontent.com/29165227/210492763-1f3e82ba-9a77-470a-be57-e02e12017335.jpg"></p>
+<a href="https://www.python.org/"><img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg"></a>
+<a href="https://github.com/MayankPandey01/Jira-Lens/issues"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"></a>
+<a href="https://twitter.com/mayank_pandey01"><img src="https://img.shields.io/twitter/follow/mayank_pandey01?style=social"></a>
+<a href="https://pypi.python.org/pypi/ansicolortags/"><img src="https://img.shields.io/pypi/l/ansicolortags.svg"></a>
+<a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>  
+</p>
 
 # 🤔 What's OwnBucket?
 
@@ -42,10 +44,10 @@ Kepping less numbers of threads may drastically increase the total execution tim
 
 The dependencies can be installed using the requirements file:
 
-Installation on Windows:  ![](https://camo.githubusercontent.com/920e3f8eb007a3834e641d27fddb9c102da3fd0c619785b52efb4dabcef2da1c/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f776f726b666c6f772f7374617475732f6369706865792f6369706865792f507974686f6e2532306170706c69636174696f6e3f6c6162656c3d57696e646f7773)
+Installation on Windows:  ![](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 - python.exe -m pip3 install -r requirements.txt.
 
-Installation on Linux: ![](https://camo.githubusercontent.com/973cbf24b31b5d10c7f8d4f65fda4c696de8d3bed0923536820f9ac262b8ad08/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f776f726b666c6f772f7374617475732f6369706865792f6369706865792f507974686f6e2532306170706c69636174696f6e3f6c6162656c3d4c696e7578)
+Installation on Linux: ![](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 - sudo python3 pip3 install -r requirements.txt.
 
 
