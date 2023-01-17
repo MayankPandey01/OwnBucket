@@ -66,6 +66,7 @@ developers
 development
 devops
 documents
+docs
 elasticsearch
 email-assets
 engineer
@@ -107,6 +108,7 @@ local
 localhost
 logexport
 logos
+logs
 logstash
 mac
 maps
@@ -181,6 +183,8 @@ uploads
 user-files
 users
 ux
+video
+videos
 web
 web-assets
 web-data

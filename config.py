@@ -10,13 +10,15 @@ RED = colorama.Fore.RED
 BLUE = colorama.Fore.BLUE
 CYAN = colorama.Fore.CYAN
 YELLOW = colorama.Fore.YELLOW
-DIM=colorama.Style.BRIGHT
-DIM_RESET=colorama.Style.RESET_ALL
-MAGENTA=colorama.Fore.MAGENTA
+DIM = colorama.Style.BRIGHT
+DIM_RESET = colorama.Style.RESET_ALL
+MAGENTA = colorama.Fore.MAGENTA
 RESET2 = colorama.Back.RESET
-no_of_workers=10
+no_of_workers = 10
+
+
 def banner():
-    banner=rf'''{RED}  
+    banner = rf'''{RED}  
    ___                 ____             _        _   
   / _ \__      ___ __ | __ ) _   _  ___| | _____| |_ 
  | | | \ \ /\ / / '_ \|  _ \| | | |/ __| |/ / _ \ __|
@@ -26,15 +28,17 @@ def banner():
 
    '''
 
-
     print(banner)
-    print(f"{MAGENTA}\t OwnBucket : Bucket Enumeration Tool {RESET} [BY : @mayank_pandey01]{DIM_RESET}\n\n\n")
+    print(
+        f"{MAGENTA}\t OwnBucket : Bucket Enumeration Tool {RESET} [BY : @mayank_pandey01]{DIM_RESET}\n\n\n")
 
-final=[]
-scan_aws=True
-env = ["dev", "development", "stage", "s3", "staging", "prod", "production", "test", "frontend", "backend"]
-bucket_prefix=[]
-suff =["-", "."]
-pref =["-","."]
-with open("bucket_prefixes.txt","r") as f:
+
+final = []
+scan_aws = True
+env = ["dev", "development", "stage", "s3", "staging", "prod",
+       "production", "test", "frontend", "backend", "temp"]
+bucket_prefix = []
+suff = ["-", "."]
+pref = ["-", "."]
+with open("bucket_prefixes.txt", "r") as f:
     bucket_prefix = [line.strip() for line in f]
