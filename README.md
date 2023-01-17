@@ -10,7 +10,7 @@
 
 # 🤔 What's OwnBucket?
 
-OwnBucket is a Python Based Recon tool for Storage Buckets. It scans for AWS S3 Bucket and GCP Buckets by bruteforcing using different permutations.
+OwnBucket is a Python Based Recon tool for Storage Buckets. It scans for AWS S3 Bucket, Azure Storage Blob and GCP Buckets by bruteforcing using different permutations.
 
 
 # 🚀 Usage
@@ -24,6 +24,7 @@ OwnBucket can be easily  used from the command line
  - `-t` : To Provide a Company Name for Scanning
  - `--aws` : Only Check for AWS S3 Buckets (Default)
  - `--gcp` : Only Check for GCP Buckets 
+ - `--azure` : Only Check for Azure Storage Blob 
  - `--all` : Check for both AWS S3 and GCP Buckets
  
  Sometimes the tool reaches the rate limit while scanning S3 buckets, to prevent this from happening `no_of_workers` are reduced to 10 , If you increase this it will result in true-negatives or will give no result at all.
